@@ -19,7 +19,7 @@ networks (GNNs).
     - Development of machine learning based estimation model for conservation actions.
     - Addressing bias and fairness in machine learning in collaboration with social scientists. 
 """
-            )
+)
 
 
 st.subheader("PhD in Computer and Information Science", divider="grey")
@@ -32,4 +32,25 @@ st.markdown("""
 significantly improved the accuracy of text analysis tasks.
 - Published three research papers in reputable conferences including PAKDD, CIKM and SIGIR.
 """
-            )
+)
+
+
+st.subheader("MS in Computer Science", divider="grey")
+st.markdown("**St. Francis Xavier University (StFX), Canada**")
+st.markdown("**Sep. 2009 - Apr. 2012**")
+
+st.markdown("""
+- Thesis topic: healtcare workflow verification using tableau method for computation tree logic.
+- Explored healthcare workflow optimization through formal logic methods.
+"""
+)
+
+st.subheader("B.Sc. in Computer Science and Engineering", divider="grey")
+st.markdown("**Khulna University, Bangladesh**")
+st.markdown("**Sep. 2002 - Oct. 2006**")
+
+st.markdown("""
+- Thesis topic: resource management in grid computing environment.
+- Explored efficient resource allocation strategies in distributed computing.
+"""
+)
