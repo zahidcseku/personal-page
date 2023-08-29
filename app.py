@@ -1,7 +1,19 @@
 from pathlib import Path
 import streamlit as st
-
+import base64
 from PIL import Image
+
+def img_to_bytes(img_path):
+    img_bytes = Path(img_path).read_bytes()
+    encoded = base64.b64encode(img_bytes).decode()
+    return encoded
+def img_to_html(img_path):
+    img_html = f"<a href='{img_path['url']}'>" \
+               f"<img src='data:image/png;base64,{img_to_bytes(img_path['logo'])}' " \
+               f"width='110' " \
+               f"class='img-fluid'>" \
+               f"</a>"
+    return img_html
 
 # ---- Path settings ----
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -44,8 +56,13 @@ harness the power of data to make informed decisions that shape industries and
 empower innovation.
 """
 email = "zahidcseku@gmail.com"
-linkedin = "https://www.linkedin.com/in/mdzahidislam/"
-#    "GitHub": "https://github.com/zahidcseku"
+
+linkedin = {'url': "https://www.linkedin.com/in/mdzahidislam/",
+            'logo': f"{current_dir}/assets/LI-Logo.png"
+            }
+github = {'url': "https://github.com/zahidcseku",
+           'logo': f"{current_dir}/assets/GitHub_Logo.png"
+          }
 
 st.set_page_config(page_title=title, page_icon=icon)
 
@@ -64,15 +81,16 @@ profile_pic = Image.open(profile_pic)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(profile_pic, width=230)
+    st.write(":email:", email)
+    st.write(":iphone:", "0406427413")
+    st.markdown(img_to_html(linkedin), unsafe_allow_html=True)
+    st.markdown(img_to_html(github), unsafe_allow_html=True)
     st.download_button(
         label="Download Resume",
         data=cvbyte,
         file_name=resume_file.name,
         mime="application/octet-stream"
     )
-    st.write(":email:", email)
-    st.write(":iphone:", "0406427413")
-    st.markdown(f"[![Title]('{current_dir}/assets/LinkedIn-Logos/LI-Logo.png')]({linkedin})")
 
 with col2:
     st.title(name)
