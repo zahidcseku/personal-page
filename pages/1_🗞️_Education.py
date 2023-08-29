@@ -20,3 +20,16 @@ networks (GNNs).
     - Addressing bias and fairness in machine learning in collaboration with social scientists. 
 """
             )
+
+
+st.subheader("PhD in Computer and Information Science", divider="grey")
+st.markdown("**University of South Australia (UniSA), Australia**")
+st.markdown("**Sep. 2016 - Oct. 2020**")
+
+st.markdown("""
+- Pioneered research in text analysis using evidence-based ensemble methods.
+- Devised novel ensemble techniques integrating an explainable machine learning model that 
+significantly improved the accuracy of text analysis tasks.
+- Published three research papers in reputable conferences including PAKDD, CIKM and SIGIR.
+"""
+            )
