@@ -40,6 +40,9 @@ linkedin = {'url': "https://www.linkedin.com/in/mdzahidislam/",
 github = {'url': "https://github.com/zahidcseku",
           'logo': f"{current_dir}/assets/GitHub_Logo.png"
           }
+schorar = {'url': "https://scholar.google.com/citations?user=WpBYmZgAAAAJ&hl=en",
+          'logo': f"{current_dir}/assets/scholar.png"
+          }
 
 st.set_page_config(page_title=title,
                    layout="wide",
@@ -64,6 +67,7 @@ with col1:
     st.write(":iphone:", "0406427413")
     st.markdown(img_to_html(linkedin), unsafe_allow_html=True)
     st.markdown(img_to_html(github), unsafe_allow_html=True)
+    st.markdown(img_to_html(schorar), unsafe_allow_html=True)
     st.download_button(
         label="Download Resume",
         data=cvbyte,
