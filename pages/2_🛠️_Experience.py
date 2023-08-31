@@ -92,3 +92,17 @@ Computation Tree Logic (CTL).
 - Conducted practical tutorials for undergraduate courses.
 """
 )
+
+
+st.subheader("Program Committee Member Servicess ", divider="grey")
+st.markdown("""
+- **2023**: Thirty - Eighth AAAI Conference on Artificial Intelligence, Vancouver, Canada.
+- **2023**: The 15th Asian Conference on Machine Learning, İstanbul, Turkey.
+- **2022**: The 20th Australasian Data Mining Conference, Sydney, NSW, Australia.
+- **2021**: The 19th Australasian Data Mining Conference, Brisbane, QLD, Australia. 
+- **2020**: The 18th Australasian Data Mining Conference, Canberra, ACT, Australia.
+- **2020**: IEEE Symposium Series on Computational Intelligence (SSCI), ACT, Australia.
+- **2019**: The 17th Australasian Data Mining Conference, Adelaide, SA, Australia.
+- **2019**: The 32nd Australasian Joint Conference on Artificial Intelligence, Adelaide, SA, Australia.
+"""
+)
