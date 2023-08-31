@@ -56,3 +56,39 @@ st.markdown("""
 - Marking students assessments and exams.
 """
 )
+
+st.subheader("Tutor", divider="grey")
+st.markdown("**UniSA, Australia**")
+st.markdown("**Feb. 2018 - Jul. 2020**")
+
+st.markdown("""
+- Conduct practical sessions to help students learning.
+- Marking students assessments and exams.
+"""
+)
+
+st.subheader("Assistant professor | Lecturer", divider="grey")
+st.markdown("**Khulna University, Bangladesh**")
+st.markdown("**Feb. 2012 - Jul. 2016 | Sep. 2008 - Sep. 2009**")
+
+st.markdown("""
+- Taught undergrad courses of Computer Science.
+- Responsible for conducting lectures, examinations, assignments, and marking. Some courses that 
+I taught include - Computer Fundamental, Structured Programming, Data Sctructure, Computer Organization, 
+Database, Data Mining etc. 
+- Supervision of undergraduate research and project students.
+- Conducted programming tutorial sessions for the students.
+"""
+)
+
+st.subheader("Research and teaching assistant", divider="grey")
+st.markdown("**Center for Logic and Information, St. Francis Xavier University, Canada**")
+st.markdown("**Sep. 2009 - Feb. 2012**")
+
+st.markdown("""
+- Researched formal verification techniques for healthcare workflows.
+- Implemented a prototype healthcare workflow verification framework using the tableau method for 
+Computation Tree Logic (CTL).
+- Conducted practical tutorials for undergraduate courses.
+"""
+)
