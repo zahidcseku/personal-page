@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Work Experience")
 
-st.header("Industry Experience")
+st.header("Industry Experience", divider="blue")
 
 st.subheader("Web Developer | Software Engineer | Senior Software Engineer", divider="grey")
 st.markdown("**Dot Net Explorer Ltd. (Remote Job), Khulna, Bangladesh**")
@@ -30,7 +30,7 @@ Bangladesh Forest Department.
 )
 
 
-st.header("Academic Experience")
+st.header("Academic Experience", divider="blue")
 
 st.subheader("Research Assistant and PhD Candidate", divider="grey")
 st.markdown("**Data Analytics Group (currently known as 4LLab), UniSA, Australia**")
