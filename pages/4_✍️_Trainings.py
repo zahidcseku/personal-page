@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Conferences, Workshops and Training")
-st.header("", divider="blue")
+#st.header("", divider="blue")
 
 st.markdown("""
 - Organized by CSIRO: _Advanced Time-Series Modelling and Forecasting_, Brisbane, Australia. 
