@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Conferences, Workshops and Training")
+st.title("Workshops and Training")
 #st.header("", divider="blue")
 
 st.markdown("""
