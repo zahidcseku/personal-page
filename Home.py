@@ -64,7 +64,7 @@ col1, col2, emptycol = st.columns(3, gap="small")
 with col1:
     st.image(profile_pic, width=230)
     st.write(":email:", email)
-    st.write(":iphone:", "0406427413")
+    #st.write(":iphone:", "0406427413")
     st.markdown(img_to_html(linkedin), unsafe_allow_html=True)
     st.markdown(img_to_html(github), unsafe_allow_html=True)
     st.markdown(img_to_html(schorar), unsafe_allow_html=True)
